@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}   
+
+.header-logo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 79px; 
+    display: flex;
+    gap: 30px;
+}
+
+.header-link li {
+    color: #8C8A8A;
+    text-align: center;
+    font-size: 18px;
+    list-style-type: none;
+    font-family: 'RR';
+}
+
+.header-img-box {
+    margin-top: 30px;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.main__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-block-title {
+    color: #4581B7;
+    font-size: 20px;
+    padding: 50px 0px 0px 40px;
+    font-family: 'RB';
+}
+
+.main-block-text {
+    width: 595px;
+    color: #808080;
+    font-size: 16px;
+    font-family: 'RR';
+    line-height: 27px;
+    margin: 25px 95px 0px 40px;
+}
+
+.main-block-1 {
+    margin-top: 30px;
+    width: 730px;
+    height: 500px;
+    background: var(--grey, #F0F0F0);
+}
+
+.main-block-2 {
+    width: 350px;
+    height: 500px;
+    background: var(--grey, #F0F0F0);
+    margin-top: 30px;
+}
+
+.main-block-2 h3 {
+    color: #4581B7;
+    font-size: 20px;
+    padding: 50px 29px 0px 40px;
+}
+
+.main-info {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'RR';
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 25px 95px 40px 41px;
+    gap: 20px;
+}
+
+footer .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-box {
+    background: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.footer-right-text {
+    color: #808080;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.footer-right-tel {
+    color: #808080;
+    line-height: 29px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width:1130px) {
+    .main__box {
+        justify-content: center;
+    }
+}
+
+@media (max-width:642px) {
+    .main-block-1 {
+        width: 360px;
+    }
+
+    .main-block-text {
+        width: 245px;
+        font-size: 14px;
+        height: 324px;
+        line-height: 13px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width:590px) {
+    .footer-box {
+        justify-content: center;
+        gap: 15px;
+    }
+}
